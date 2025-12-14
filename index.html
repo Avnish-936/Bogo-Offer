@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BOGO Offer</title>
+<link href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="heading">YAY! It’s BOGO</h2>
+
+<div class="option" onclick="selectOption(1)">
+	<!-- Option 1 -->
+	<div class="option-details">
+		<label>
+			<input type="radio" name="offer" id="opt2">
+			<strong>1 Unit</strong> <span class="discount-tag">10% Off</span>
+			<div style="margin-left: 25px; margin-top: 3px; font-size: 11px">Standard Price</div>
+		</label>
+		<div class="price">
+			<div>$10.00 USD</div> 
+			<del class="old-price">$24.00 USD</del>
+		</div>
+	</div>
+		<div class="sizes" id="sizes1">
+            <div>
+				<div>
+					<span class="item-size">Size</span>
+					<span class="item-colour">Colour</span>
+				</div>
+				<span>#1</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Black</option>
+                    <option>White</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+            <div>
+				<span>#2</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Colour</option>
+                    <option>Black</option>
+                    <option>White</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 2 -->
+    <div class="option" onclick="selectOption(2)">
+        <div class="popular">MOST POPULAR</div>
+		<div class="option-details">
+			<label>
+				<input type="radio" name="offer" id="opt2">
+				<strong>2 Units</strong> <span class="discount-tag">20% Off</span>
+			</label>
+			<div class="price">
+				<div>$18.00 USD</div> 
+				<del class="old-price">$24.00 USD</del>
+			</div>
+		</div>
+
+        <div class="sizes" id="sizes2">
+            <div>
+				<div>
+					<span class="item-size">Size</span>
+					<span class="item-colour">Colour</span>
+				</div>
+				<span>#1</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Black</option>
+                    <option>White</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+            <div>
+				<span>#2</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Colour</option>
+                    <option>Black</option>
+                    <option>White</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 3 -->
+    <div class="option" onclick="selectOption(3)">
+		<div class="option-details">
+			<label>
+				<input type="radio" name="offer" id="opt2">
+				<strong>3 Units</strong> <span class="discount-tag">30% Off</span>
+			</label>
+			<div class="price">
+				<div>$24.00 USD</div> 
+				<del class="old-price">$24.00 USD</del>
+			</div>
+		</div>
+		
+		<div class="sizes" id="sizes3">
+            <div>
+				<div>
+					<span class="item-size">Size</span>
+					<span class="item-colour">Colour</span>
+				</div>
+				<span>#1</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Black</option>
+                    <option>White</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+            <div>
+				<span>#2</span>
+                <select>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                </select>
+                <select>
+                    <option>Colour</option>
+                    <option>Black</option>
+                    <option>White</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+<div class="footer">
+    <span class="free-delivery">Free Delivery</span>
+    <span><strong id="total">Total : $18.00 USD</strong></span>
+</div>
+
+    <button><strong>+&nbsp</strong>Add to Cart</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
